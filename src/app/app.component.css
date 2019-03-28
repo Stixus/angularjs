@@ -1,0 +1,36 @@
+#container{
+    padding: 5%;
+    padding-top: 3%;
+}
+
+#list-container{
+    width: 50%;
+  margin: 0 auto;
+}
+
+h1{
+    margin-bottom: 2%;
+}
+
+.progress {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
+.list-group-item{
+    margin: 0.5%;
+}
+
+@media only screen and (max-width: 800px) {
+    .progress {
+      width: 100%;
+      margin-bottom: 5%;
+    }
+    #list-container{
+        width: 100%;
+    }
+    h1{
+        margin-bottom: 5%;
+    }
+  }
